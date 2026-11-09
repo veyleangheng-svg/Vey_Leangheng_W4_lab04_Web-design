@@ -1,0 +1,43 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #333333;
+  color: #444;
+  padding: 20px;
+
+  height: 90vh;
+}
+
+.item {
+  background-color: #3092d7;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+}
+
+/* Layouting only  (your work)*/
+
+.wrapper{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 20px;
+  padding: 7px;
+}
+
+.a{
+  grid-column: 1/4;
+}
+.b{
+  grid-row: 2/4;
+}
+.e{
+  grid-column: 2/4;
+}
+.f{
+  grid-column: 1/4;
+}
